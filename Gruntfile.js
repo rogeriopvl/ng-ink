@@ -8,13 +8,13 @@ module.exports = function(grunt) {
       bower: {
         files: [{
           expand: true,
-          cwd: 'bower_components/Ink',
+          cwd: 'bower_components/Ink/dist',
           src: ['css/ink.css', 'css/ink-ie7.css', 'js/ink-all.js'],
           dest: 'build'
         }, {
           expand: true,
-          cwd: 'bower_components/Ink',
-          src: ['font/*'],
+          cwd: 'bower_components/Ink/dist',
+          src: ['fonts/**/*'],
           dest: 'build'
         }, {
           expand: true,
